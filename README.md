@@ -1,1 +1,1 @@
-# JavaMentoring
+# JavaMentoringProjects
