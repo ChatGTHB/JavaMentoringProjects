@@ -62,6 +62,7 @@ public class Arrays2D {
 //        }
 
         //TODO 4*4 bir int array tanimlayiniz ve random doldurup ekrana yazdiriniz 0 den 10'a kadar(10 dahil)?
+
         int[][] arr = new int[4][4];
 
         for (int i = 0; i < arr.length; i++) {
@@ -73,7 +74,5 @@ public class Arrays2D {
             System.out.println();
         }
         System.out.println(Arrays.deepToString(arr));
-
-
     }
 }
