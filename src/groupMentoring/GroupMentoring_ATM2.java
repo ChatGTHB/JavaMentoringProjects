@@ -27,7 +27,6 @@ public class GroupMentoring_ATM2 {
          */
 
 
-
         Scanner input = new Scanner(System.in);
         int sifre = 0;
         int girisSayisi = 0;
@@ -37,12 +36,11 @@ public class GroupMentoring_ATM2 {
         do {
             if (girisSayisi == 0) {
                 System.out.println("--------------------------QABank ATM Hizmetleri ------------------------------");
-                System.out.print("       ------------------------Hoşgeldiniz---------------------------" +
-                        "\n\nLütfen şifrenizi giriniz : ");
+                System.out.print("       ------------------------Hoşgeldiniz---------------------------" + "\n\nLütfen şifrenizi giriniz : ");
                 sifre = input.nextInt();
                 girisSayisi++;
                 System.out.println("Giriş denemeniz : " + girisSayisi);
-            } else  {
+            } else {
                 System.out.print("Hatalı giriş yaptınız." + "\nLütfen şifrenizi yeniden giriniz : ");
                 sifre = input.nextInt();
                 girisSayisi++;
@@ -52,12 +50,8 @@ public class GroupMentoring_ATM2 {
         } while (sifre != tanimliSifre && girisSayisi <= 3);
 
 
-
-
         if (sifre == tanimliSifre) {
-            System.out.print("Lütfen işlem yapmak istediğiniz menüyü seçiniz :\n" +
-                    "1.Kendi Hesabına Para Yatırma \n" + "2.Para Çekme \n" +
-                    "3.Havale \n" + "4.Şifre Degiştirme \n" + "5.Çıkış\n");
+            System.out.print("Lütfen işlem yapmak istediğiniz menüyü seçiniz :\n" + "1.Kendi Hesabına Para Yatırma \n" + "2.Para Çekme \n" + "3.Havale \n" + "4.Şifre Degiştirme \n" + "5.Çıkış\n");
             menuSecim = input.nextInt();
             switch (menuSecim) {
                 case 1:
@@ -79,10 +73,7 @@ public class GroupMentoring_ATM2 {
                     System.out.println("Hatalı giriş yaptınız.");
             }
         } else {
-            System.out.println(girisSayisi + ". şifre girişiniz."
-                    + "\nÜzgünüm çok sayıda hatalı giriş "
-                    + "yaptığınız için kartınıza el konulmuştur.\n"
-                    + "Lütfen şubemizden geri alınız.");
+            System.out.println(girisSayisi + ". şifre girişiniz." + "\nÜzgünüm çok sayıda hatalı giriş " + "yaptığınız için kartınıza el konulmuştur.\n" + "Lütfen şubemizden geri alınız.");
         }
 
 

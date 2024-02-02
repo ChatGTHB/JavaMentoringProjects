@@ -37,9 +37,7 @@ public class GroupMentoring_ATM {
         String girilenSifre = inputStr.nextLine();
 
         if (sifre.equals(girilenSifre)) {
-            System.out.println("1.Kendi Hesabına Para Yatırma \n" + "2.Para Çekme \n" +
-                    "3.Havale \n" + "4.Şifre Degiştirme \n" + "5.Çıkış\n" +
-                    "Lütfen işlem yapmak istediğiniz menüyü seçiniz :");
+            System.out.println("1.Kendi Hesabına Para Yatırma \n" + "2.Para Çekme \n" + "3.Havale \n" + "4.Şifre Degiştirme \n" + "5.Çıkış\n" + "Lütfen işlem yapmak istediğiniz menüyü seçiniz :");
             menuSecim = inputInt.nextInt();
             if (menuSecim == 1) {
                 System.out.println("1.Kendi Hesabına Para Yatırma Menüsündesiniz.");
@@ -56,15 +54,12 @@ public class GroupMentoring_ATM {
             }
         } else {
             while (!sifre.equals(girilenSifre) && counter <= 3) {
-                System.out.print(counter + ". şifre girişiniz.\nHatalı giriş yaptınız." +
-                        "\nLütfen şifrenizi yeniden giriniz : ");
+                System.out.print(counter + ". şifre girişiniz.\nHatalı giriş yaptınız." + "\nLütfen şifrenizi yeniden giriniz : ");
                 girilenSifre = inputStr.nextLine();
                 counter++;
             }
             if (sifre.equals(girilenSifre)) {
-                System.out.println("1.Kendi Hesabına Para Yatırma \n" + "2.Para Çekme \n" +
-                        "3.Havale \n" + "4.Şifre Degiştirme \n" + "5.Çıkış\n" +
-                        "Lütfen işlem yapmak istediğiniz menüyü seçiniz :");
+                System.out.println("1.Kendi Hesabına Para Yatırma \n" + "2.Para Çekme \n" + "3.Havale \n" + "4.Şifre Degiştirme \n" + "5.Çıkış\n" + "Lütfen işlem yapmak istediğiniz menüyü seçiniz :");
                 menuSecim = inputInt.nextInt();
                 if (menuSecim == 1) {
                     System.out.println("1.Kendi Hesabına Para Yatırma Menüsündesiniz.");
@@ -80,9 +75,7 @@ public class GroupMentoring_ATM {
                     System.out.println("Hatalı giriş yaptınız.");
                 }
             } else if (counter == 4) {
-                System.out.println(counter + ". şifre girişiniz.\nÜzgünüm çok sayıda hatalı giriş " +
-                        "yaptığınız için kartınıza el konulmuştur.\n" +
-                        "Lütfen şubemizden geri alınız.");
+                System.out.println(counter + ". şifre girişiniz.\nÜzgünüm çok sayıda hatalı giriş " + "yaptığınız için kartınıza el konulmuştur.\n" + "Lütfen şubemizden geri alınız.");
             }
         }
     }
