@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class GroupMentoring_ATM2 {
     public static void main(String[] args) {
-         /* Giris kismi :
+         /**
+        Giris kismi :
         ATM ye gelen kişiyi Hosgeldiniz Mesaji ve Sifrenizi Giriniz gibi bir mesaj karsilasin
 
         Eger doğru sifre girerse asagidaki gibi Menu ciksin karsisina ve secim yapsin.
@@ -23,9 +24,7 @@ public class GroupMentoring_ATM2 {
         “ Üzgunum Cok sayida hatali giriş yaptiginiz için Kartiniza El konulmuştur
         Lütfen Subemizden geri aliniz”   mesajini göstersin ve ciksin.
         Her sifre girişinde ekranda kacinci girişi olduguda yazsin
-
          */
-
 
         Scanner input = new Scanner(System.in);
         int sifre = 0;
@@ -75,8 +74,5 @@ public class GroupMentoring_ATM2 {
         } else {
             System.out.println(girisSayisi + ". şifre girişiniz." + "\nÜzgünüm çok sayıda hatalı giriş " + "yaptığınız için kartınıza el konulmuştur.\n" + "Lütfen şubemizden geri alınız.");
         }
-
-
     }
-
 }
