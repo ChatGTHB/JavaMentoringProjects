@@ -3,16 +3,19 @@ package week1;
 import java.util.Scanner;
 
 public class _20_11_2022 {
+
     public static void main(String[] args) {
 
-        /*Ayse üniversitede okuyan bir ögrencidir. Bir sömestrda 2 adet sinav olacaktir.
+        /**
+        Ayse üniversitede okuyan bir ögrencidir. Bir sömestrda 2 adet sinav olacaktir.
         Yilsonu notunu hesaplayan kisa bir program yazalim.
         Girdigi ilk sinavin (vize) %40 i
         ikinci sinavin (final sinavi) %60 i notunu belirleyecektir.
         Iki sinavdan aldigi puan -->
         60-100 --> arasinda ise Tebrikler gectiniz
         40-60  --> arasinda ise  extra bütünleme sinavina girmelisiniz
-        0-40 --> arasinda ise malesef ders tekrari yapmalisiniz yazsin*/
+        0-40 --> arasinda ise malesef ders tekrari yapmalisiniz yazsin
+        */
 
         Scanner input = new Scanner(System.in);
 

@@ -8,6 +8,5 @@ public class _18_11_2022 {
         // String methodlarindan uygun olanini kullaniniz...
 
         System.out.println(givenString.replace(" ", ""));
-
     }
 }
